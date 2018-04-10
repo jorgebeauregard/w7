@@ -1,0 +1,17 @@
+{
+ "name": "node-api",
+ "scripts": {
+  "dev": "cross-env NODE_ENV=development nodemon server.js --watch server"
+ },
+ "dependencies": {
+  "express": "~4.0.0",
+  "sequelize": "^3.23.6",
+  "pg": "^6.1.0",
+  "cors": "*",
+  "body-parser": "~1.0.1"
+ },
+ "devDependencies": {
+  "cross-env": "^5.0.1",
+  "nodemon": "^1.11.0"
+ }
+}
